@@ -13,7 +13,7 @@ global_result:
 
 real_start:
 	#la $gp, _gp
-	la $sp, 0x400
+	li $sp, 0x4000
 	jal main
 	sw $zero, global_result
 
