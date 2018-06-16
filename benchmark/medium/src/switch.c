@@ -1,4 +1,7 @@
 #include "trap.h"
+#include "perf_cnt.h"
+#include "printf.h"
+
 
 int switch_case(int n) {
 	int ret;
@@ -19,11 +22,21 @@ int ans[] = {-1, 0, 2, 5, 5, 8, 8, 8, 8, 10, 10, 10, 10, 15, -1};
 
 int main() {
 	int i;
+	
+	Result res;
+	res.msec = 0;
+
+	bench_prepare(&res);
+
 	for(i = 0; i < 15; i ++) {
 		nemu_assert(switch_case(i - 1) == ans[i]);
 	}
 
 	nemu_assert(i == 15);
+
+	bench_done(&res);
+	
+	printf("total cycle: %u\n", res.msec);
 
 	return 0;
 }

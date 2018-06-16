@@ -1,4 +1,7 @@
 #include "trap.h"
+#include "perf_cnt.h"
+#include "printf.h"
+
 
 int min3(int x, int y, int z) {
 	int m;
@@ -15,6 +18,12 @@ int ans [] = {0, 0, -2147483648, -1, 0, 0, -2147483648, -1, -2147483648, -214748
 
 int main() {
 	int i, j, k, ans_idx = 0;
+	
+	Result res;
+	res.msec = 0;
+
+	bench_prepare(&res);
+
 	for(i = 0; i < NR_DATA; i ++) {
 		for(j = 0; j < NR_DATA; j ++) {
 			for(k = 0; k < NR_DATA; k ++) {
@@ -26,6 +35,10 @@ int main() {
 	}
 
 	nemu_assert(i == NR_DATA);
+
+	bench_done(&res);
+	
+	printf("total cycle: %u\n", res.msec);
 
 	return 0;
 }

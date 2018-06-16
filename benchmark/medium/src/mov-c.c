@@ -1,9 +1,18 @@
 #include "trap.h"
+#include "perf_cnt.h"
+#include "printf.h"
+
 
 int A[10];
 int b;
 
 int main() {
+	
+	Result res;
+	res.msec = 0;
+
+	bench_prepare(&res);
+
 	A[0] = 0;
 	A[1] = 1;
 	A[2] = 2;
@@ -20,6 +29,10 @@ int main() {
 	nemu_assert(A[4] == 4);
 	nemu_assert(b == 3);
 	nemu_assert(A[5] == 3);
+
+	bench_done(&res);
+	
+	printf("total cycle: %u\n", res.msec);
 
 	return 0;
 }

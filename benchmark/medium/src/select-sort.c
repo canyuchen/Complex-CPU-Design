@@ -1,4 +1,7 @@
 #include "trap.h"
+#include "perf_cnt.h"
+#include "printf.h"
+
 
 #define N 20
 
@@ -24,6 +27,12 @@ int main() {
 	select_sort();
 
 	int i;
+	
+	Result res;
+	res.msec = 0;
+
+	bench_prepare(&res);
+
 	for(i = 0; i < N; i ++) {
 		nemu_assert(a[i] == i);
 	}
@@ -37,6 +46,10 @@ int main() {
 	}
 
 	nemu_assert(i == N);
+
+	bench_done(&res);
+	
+	printf("total cycle: %u\n", res.msec);
 
 	return 0;
 }

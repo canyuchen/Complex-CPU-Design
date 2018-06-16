@@ -1,4 +1,7 @@
 #include "trap.h"
+#include "perf_cnt.h"
+#include "printf.h"
+
 
 int if_else(int n) {
 	int cost;
@@ -18,11 +21,21 @@ int ans[] = {0, 0, 0, 0, 50, 50, 50, 75, 75, 75, 100, 100, 100, 150};
 
 int main() {
 	int i, ans_idx = 0;
+	
+	Result res;
+	res.msec = 0;
+
+	bench_prepare(&res);
+
 	for(i = 0; i < NR_DATA; i ++) {
 		nemu_assert(if_else(test_data[i]) == ans[ans_idx ++]);
 	}
 
 	nemu_assert(i == NR_DATA);
+
+	bench_done(&res);
+	
+	printf("total cycle: %u\n", res.msec);
 
 	return 0;
 }

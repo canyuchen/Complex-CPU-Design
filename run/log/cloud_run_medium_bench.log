@@ -1,0 +1,11 @@
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+/usr/bin/poff: No pppd is running.  None stopped.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.51
+Try to reboot 172.16.15.51
+Waiting for target reboot...
+Completed FPGA configuration
+Evaluating medium benchmark suite...
+Error: No serial number 01 in medium benchmark suite. 	Please verify your specified serial number list of medium benchmark suite
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+2018年 06月 16日 星期六 11:01:25 CST
