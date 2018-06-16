@@ -1,7 +1,7 @@
 #include "trap.h"
 #include "mul.h"
-#include "perf_cnt.h"
-#include "printf.h"
+#include "../../lib/include/perf_cnt.h"
+#include "../../lib/include/printf.h"
 
 int f[15];
 int ans[] = {1, 1, 2, 6, 24, 120, 720, 5040, 40320, 362880, 3628800, 39916800, 479001600};

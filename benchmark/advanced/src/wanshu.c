@@ -1,7 +1,7 @@
 #include "trap.h"
 #include "mod.h"
-#include "perf_cnt.h"
-#include "printf.h"
+#include "../../lib/include/perf_cnt.h"
+#include "../../lib/include/printf.h"
 int ans[] = {6, 28};
 
 int main() {

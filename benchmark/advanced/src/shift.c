@@ -1,5 +1,5 @@
-#include "perf_cnt.h"
-#include "printf.h"
+#include "../../lib/include/perf_cnt.h"
+#include "../../lib/include/printf.h"
 #include "trap.h"
 #define ARR_SIZE(arr) (sizeof(arr) / sizeof((arr)[0]))
 

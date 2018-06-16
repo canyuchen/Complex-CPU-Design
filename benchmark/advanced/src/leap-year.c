@@ -1,7 +1,7 @@
 #include "trap.h"
 #include "mod.h"
-#include "perf_cnt.h"
-#include "printf.h"
+#include "../../lib/include/perf_cnt.h"
+#include "../../lib/include/printf.h"
 
 int is_leap_year(int n) {
 	return (mod(n, 4) == 0 && mod(n, 100) != 0) || (mod(n, 400) == 0);

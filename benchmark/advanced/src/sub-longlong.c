@@ -1,6 +1,6 @@
 #include "trap.h"
-#include "perf_cnt.h"
-#include "printf.h"
+#include "../../lib/include/perf_cnt.h"
+#include "../../lib/include/printf.h"
 long long sub(long long a, long long b) {
 	long long c = a - b;
 	return c;

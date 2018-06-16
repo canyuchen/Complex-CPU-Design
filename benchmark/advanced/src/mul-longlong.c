@@ -1,7 +1,7 @@
 #include "trap.h"
 #include "mul.h"
-#include "perf_cnt.h"
-#include "printf.h"
+#include "../../lib/include/perf_cnt.h"
+#include "../../lib/include/printf.h"
 
 long long mul(long long a,long long b) {
 	long long ans = mul_ll(a, b);

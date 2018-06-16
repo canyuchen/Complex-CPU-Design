@@ -1,8 +1,8 @@
 #include "trap.h"
 #include "mul.h"
 #include "div.h"
-#include "perf_cnt.h"
-#include "printf.h"
+#include "../../lib/include/perf_cnt.h"
+#include "../../lib/include/printf.h"
 int f0(int, int);
 int f1(int, int);
 int f2(int, int);
