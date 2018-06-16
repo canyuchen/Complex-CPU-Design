@@ -1,9 +1,11 @@
 #include "perf_cnt.h"
 
+volatile unsigned int *mips_perf_cnt_0 = (void *)0x40020000;
+
 unsigned long _uptime() {
   // TODO [COD]
   //   You can use this function to access performance counter related with time or cycle.
-  return 0;
+  return *mips_perf_cnt_0;
 }
 
 void bench_prepare(Result *res) {

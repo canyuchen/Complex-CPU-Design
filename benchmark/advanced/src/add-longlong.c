@@ -1,4 +1,7 @@
 #include "trap.h"
+#include "perf_cnt.h"
+#include "printf.h"
+
 
 long long add(long long a, long long b) {
 	long long c = a + b;
@@ -12,11 +15,21 @@ long long ans[] = {0LL, 0x1LL, 0x2LL, 0x7fffffffffffffffLL, 0x8000000000000000LL
 
 int main() {
 	int i, j, ans_idx = 0;
+	
+	Result res;
+	res.msec = 0;
+
+	bench_prepare(&res);
+
 	for(i = 0; i < NR_DATA; i ++) {
 		for(j = 0; j < NR_DATA; j ++) {
 			nemu_assert(add(test_data[i], test_data[j]) == ans[ans_idx ++]);
 		}
 	}
+
+	bench_done(&res);
+	
+	printf("total cycle: %u\n", res.msec);
 
 	return 0;
 }

@@ -1,4 +1,6 @@
 #include "trap.h"
+#include "perf_cnt.h"
+#include "printf.h"
 
 typedef unsigned char uint8_t;
 typedef char bool;

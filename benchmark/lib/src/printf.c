@@ -236,7 +236,6 @@ mini_snprintf(char* buffer, unsigned int buffer_len, const char *fmt, ...)
 }
 
 
-
 extern int putchar(int c);
 
 /*=================================================================
@@ -250,7 +249,39 @@ int
 puts(const char *s)
 {
 	//TODO: Add your driver code here 
+	const char *p = s;
+
+	while(*s)
+	{
+		putchar(*s++);
+	}
+
+	return(s-p);
 }
+
+/*=================================================================
+ * putchar: send single character to UART TX FIFO 
+ * @c: input single character
+ *
+ *=================================================================
+ */
+
+int 
+putchar(int c)
+{
+
+	while((*(uart + (UART_STATUS>>2))) & UART_TX_FIFO_FULL)
+	{
+		;
+	} 
+
+	*(uart + (UART_TX_FIFO>>2)) = c;
+	
+	return 0;
+}
+
+
+
 
 
 int
