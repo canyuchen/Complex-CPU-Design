@@ -23,7 +23,10 @@ void setbit(void *buf, int offset, bool bit){
 
 int main() {
 	uint8_t buf[2];
+	Result res;
+	res.msec = 0;
 
+	bench_prepare(&res);
 	buf[0] = 0xaa; 
 	nemu_assert(getbit(buf, 0) == 0);
 	nemu_assert(getbit(buf, 1) == 1);
@@ -43,6 +46,10 @@ int main() {
 	setbit(buf, 14, 1);
 	setbit(buf, 15, 0);
 	nemu_assert(buf[1] == 0x55);
+
+	bench_done(&res);
+	
+	printf("total cycle: %u\n", res.msec);
 
 	return 0;
 }

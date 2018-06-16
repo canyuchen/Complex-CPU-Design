@@ -13,10 +13,18 @@ int fact(int n) {
 
 int main() {
 	int i;
+	Result res;
+	res.msec = 0;
+
+	bench_prepare(&res);
 	for(i = 0; i < 13; i ++) {
 		f[i] = fact(i);
 		nemu_assert(f[i] == ans[i]);
 	}
+
+	bench_done(&res);
+	
+	printf("total cycle: %u\n", res.msec);
 
 	return 0;
 }

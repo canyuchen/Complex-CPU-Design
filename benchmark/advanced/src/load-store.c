@@ -30,7 +30,10 @@ unsigned  lwlr_ans[] = {
 
 int main() {
 	unsigned i;
+	Result res;
+	res.msec = 0;
 
+	bench_prepare(&res);
 	for(i = 0; i < ARR_SIZE(mem) - 2; i ++) {
 		nemu_assert((short)mem[i] == lh_ans[i]);
 	}
@@ -48,6 +51,10 @@ int main() {
 		mem[i] = ~(1 << (2 * i + 1));
 		nemu_assert(mem[i] == sh_ans[i]);
 	}
+
+	bench_done(&res);
+	
+	printf("total cycle: %u\n", res.msec);
 
 	return 0;
 }

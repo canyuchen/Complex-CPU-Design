@@ -1,5 +1,7 @@
 #include "trap.h"
 #include "mul.h"
+#include "perf_cnt.h"
+#include "printf.h"
 
 long long mul(long long a,long long b) {
 	long long ans = mul_ll(a, b);
@@ -13,6 +15,10 @@ long long ans[] = { 0x19d29ab9db1a18e4LL, 0xea15986d3ac3088eLL, 0x2649e980fc0db2
 
 int main() {
 	int i,j,ans_idx = 0;
+	Result res;
+	res.msec = 0;
+
+	bench_prepare(&res);
 	for (i = 0;i < NR_DATA;i++) {
 		for (j = i;j < NR_DATA;j++) { 
 			nemu_assert(ans[ans_idx++] == mul(test_data[i],test_data[j]));
@@ -21,6 +27,10 @@ int main() {
 	}
 
 	nemu_assert(i == NR_DATA);
+
+	bench_done(&res);
+	
+	printf("total cycle: %u\n", res.msec);
 
 	return 0;
 }

@@ -1,5 +1,6 @@
 #include "trap.h"
-
+#include "perf_cnt.h"
+#include "printf.h"
 long long sub(long long a, long long b) {
 	long long c = a - b;
 	return c;
@@ -12,11 +13,19 @@ long long ans[] = {0LL, 0xffffffffffffffffLL, 0xfffffffffffffffeLL, 0x8000000000
 
 int main() {
 	int i, j, ans_idx = 0;
+	Result res;
+	res.msec = 0;
+
+	bench_prepare(&res);
 	for(i = 0; i < NR_DATA; i ++) {
 		for(j = 0; j < NR_DATA; j ++) {
 			nemu_assert(sub(test_data[i], test_data[j]) == ans[ans_idx ++]);
 		}
 	}
+
+	bench_done(&res);
+	
+	printf("total cycle: %u\n", res.msec);
 
 	return 0;
 }

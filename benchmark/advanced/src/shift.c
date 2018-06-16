@@ -1,4 +1,5 @@
-
+#include "perf_cnt.h"
+#include "printf.h"
 #include "trap.h"
 #define ARR_SIZE(arr) (sizeof(arr) / sizeof((arr)[0]))
 
@@ -21,7 +22,10 @@ unsigned srav_ans[] = {
 
 int main() {
 	unsigned i;
+	Result res;
+	res.msec = 0;
 
+	bench_prepare(&res);
 	for(i = 0; i < ARR_SIZE(test); i ++) {
 		nemu_assert((test[i] >> 7) == srl_ans[i]);
 	}
@@ -33,6 +37,10 @@ int main() {
 	for(i = 0; i < ARR_SIZE(test); i ++) {
 		nemu_assert((test[i] >> (i + 4)) == srlv_ans[i]);
 	}
+
+	bench_done(&res);
+	
+	printf("total cycle: %u\n", res.msec);
 
 	return 0;
 }

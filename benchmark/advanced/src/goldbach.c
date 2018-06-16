@@ -29,9 +29,17 @@ int goldbach(int n) {
 
 int main() {
 	int n;
+	Result res;
+	res.msec = 0;
+
+	bench_prepare(&res);
 	for(n = 4; n <= 30; n += 2) {
 		nemu_assert(goldbach(n) == 1);
 	}
+
+	bench_done(&res);
+	
+	printf("total cycle: %u\n", res.msec);
 
 	return 0;
 }

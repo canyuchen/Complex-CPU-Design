@@ -1,7 +1,8 @@
 #include "trap.h"
 #include "mul.h"
 #include "div.h"
-
+#include "perf_cnt.h"
+#include "printf.h"
 int f0(int, int);
 int f1(int, int);
 int f2(int, int);
@@ -41,8 +42,17 @@ int ans[] = {38270, 218, 20};
 
 int main() {
   int x = func[0](14371, 0);
+	Result res;
+	res.msec = 0;
+
+	bench_prepare(&res);
   nemu_assert(x == ans[0]);   // answer
   nemu_assert(rec == ans[1]); // # recursions
   nemu_assert(lvl == ans[2]); // max depth
+
+	bench_done(&res);
+	
+	printf("total cycle: %u\n", res.msec);
+
   return 0;
 }
