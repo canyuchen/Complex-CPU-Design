@@ -1,5 +1,7 @@
 #include "trap.h"
 #include "mod.h"
+#include "perf_cnt.h"
+#include "printf.h"
 
 int is_prime(int n) {
 	if(n < 2) return 0;

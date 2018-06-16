@@ -1,5 +1,7 @@
 #include "trap.h"
 #include "mul.h"
+#include "perf_cnt.h"
+#include "printf.h"
 
 #define N 10
 int a[N][N] = {

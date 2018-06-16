@@ -271,7 +271,7 @@ module mips_cpu(
         else begin
             case(state)
                 IF: state_next = (Inst_Req_Ack)? IW:IF;
-                IW: state_next = (Inst_Valid)?   ID_EX:IW;
+                IW: state_next = (Inst_Valid)?   ID:IW;
                 ST: state_next = (Mem_Req_Ack)?  IF:ST;
                 LD: state_next = (Mem_Req_Ack)?  RDW:LD;
                 RDW: state_next = (Read_data_Valid)? WB:RDW;
