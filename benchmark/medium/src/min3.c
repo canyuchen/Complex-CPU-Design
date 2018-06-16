@@ -38,7 +38,7 @@ int main() {
 
 	bench_done(&res);
 	
-	printf("total cycle: %u\n", res.msec);
+	printf("total cycle: %d\n", res.msec);
 
 	return 0;
 }
