@@ -1,3 +1,5 @@
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+/usr/bin/poff: No pppd is running.  None stopped.
 Starting xl2tpd (via systemctl): xl2tpd.service.
 Remote target: root@172.16.15.50
 Try to reboot 172.16.15.50
@@ -5,56 +7,56 @@ Waiting for target reboot...
 Completed FPGA configuration
 Evaluating advanced benchmark suite...
 Launching shuixianhua benchmark...
-total cycle: 17114409
+total cycle: 18484303
 Hit good trap
 Launching sub-longlong benchmark...
-total cycle: 49028
+total cycle: 52386
 Hit good trap
 Launching bit benchmark...
-total cycle: 10540
+total cycle: 11486
 Hit good trap
 Launching recursion benchmark...
-total cycle: 1149
+total cycle: 1222
 Hit good trap
 Launching fact benchmark...
-total cycle: 442508
+total cycle: 479563
 Hit good trap
 Launching add-longlong benchmark...
-total cycle: 48449
+total cycle: 52409
 Hit good trap
 Launching shift benchmark...
-total cycle: 10445
+total cycle: 11276
 Hit good trap
 Launching wanshu benchmark...
-total cycle: 228657
+total cycle: 247376
 Hit good trap
 Launching goldbach benchmark...
-total cycle: 128769
+total cycle: 139156
 Hit good trap
 Launching leap-year benchmark...
-total cycle: 142810
+total cycle: 154938
 Hit good trap
 Launching prime benchmark...
-total cycle: 939710
+total cycle: 1014771
 Hit good trap
 Launching mul-longlong benchmark...
-total cycle: 378506
+total cycle: 405255
 Hit good trap
 Launching load-store benchmark...
-total cycle: 11759
+total cycle: 12829
 Hit good trap
 Launching to-lower-case benchmark...
-total cycle: 68130
+total cycle: 73634
 Hit good trap
 Launching movsx benchmark...
-total cycle: 3571
+total cycle: 3966
 Hit good trap
 Launching matrix-mul benchmark...
-total cycle: 6432242
+total cycle: 6933335
 Hit good trap
 Launching unalign benchmark...
-total cycle: 983
+total cycle: 1108
 Hit good trap
 pass 17 / 17
 Stopping xl2tpd (via systemctl): xl2tpd.service.
-2018年 06月 16日 星期六 12:53:43 CST
+2018年 06月 16日 星期六 18:19:19 CST
