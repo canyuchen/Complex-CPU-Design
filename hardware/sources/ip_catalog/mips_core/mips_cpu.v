@@ -151,8 +151,10 @@ module mips_cpu(
 
     reg         [31:0]  Instruction_i;
     reg         [31:0]  Read_data_i;
-    reg         [ 6:0]  state;
-    reg         [ 6:0]  state_next;
+    // reg         [ 6:0]  state;
+    // reg         [ 6:0]  state_next;
+    reg         [ 7:0]  state;
+    reg         [ 7:0]  state_next;
 
     //alu input and output
     wire        [31:0]  mips_alu_in_a;
