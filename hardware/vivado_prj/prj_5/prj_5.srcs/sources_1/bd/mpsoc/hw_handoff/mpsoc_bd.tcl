@@ -340,7 +340,7 @@ CONFIG.NUM_SI {1} \
   # Create instance: mips_clk_src, and set properties
   set mips_clk_src [ create_bd_cell -type ip -vlnv xilinx.com:ip:clk_wiz:5.4 mips_clk_src ]
   set_property -dict [ list \
-CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {100} \
+CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {120} \
 CONFIG.JITTER_OPTIONS {PS} \
  ] $mips_clk_src
 
