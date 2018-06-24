@@ -6,7 +6,7 @@
 <Project Version="7" Minor="20" Path="/home/cod/Desktop/prj5_1/v1/prj5-cpu-opt-harvardchen/hardware/vivado_prj/prj_5/prj_5.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="2aba65c5edab4287854d6ba0544bd474"/>
+    <Option Name="Id" Val="98340427a3f74e508666f80926fd8895"/>
     <Option Name="Part" Val="xczu2eg-sfva625-1-e"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
@@ -20,6 +20,7 @@
     <Option Name="SourceMgmtMode" Val="None"/>
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
+    <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
     <Option Name="IPCachePermission" Val="read"/>
     <Option Name="IPCachePermission" Val="write"/>
     <Option Name="EnableCoreContainer" Val="FALSE"/>
@@ -68,7 +69,7 @@
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="mips_cpu_top"/>
+        <Option Name="TopModule" Val="mips_cpu"/>
       </Config>
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
