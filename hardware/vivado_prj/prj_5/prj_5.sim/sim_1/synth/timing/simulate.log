@@ -1,0 +1,4 @@
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+WARNING: "/opt/Xilinx/Vivado/2017.2/data/verilog/src/unisims/FDRE.v" Line 148: Timing violation in scope /mips_cpu_test/u_mips_cpu/u_sim_wrapper/sim_i/axi_gpio_0/U0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_reg[2]/TChk148_38386 at time 1828910 ps $width (negedge R &&& init_enable,(0:0:0),0,notifier) 
+WARNING: "/opt/Xilinx/Vivado/2017.2/data/verilog/src/unisims/FDRE.v" Line 148: Timing violation in scope /mips_cpu_test/u_mips_cpu/u_sim_wrapper/sim_i/axi_gpio_0/U0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_reg[2]/TChk148_38386 at time 70748910 ps $width (negedge R &&& init_enable,(0:0:0),0,notifier) 
