@@ -1,7 +1,0 @@
-# compile verilog/system verilog design source files
-verilog xil_defaultlib  "mips_cpu_test_time_synth.v" --include "../../../../prj_5.srcs/sources_1/bd/sim/ipshared/7e3a/hdl" -d "MIPS_CPU_FULL_SIMU="
-verilog xil_defaultlib  "../../../../../../sources/testbench/mips_cpu_test.v" --include "../../../../prj_5.srcs/sources_1/bd/sim/ipshared/7e3a/hdl" -d "MIPS_CPU_FULL_SIMU="
-verilog xil_defaultlib  "../../../../../../sources/testbench/uart_recv_sim.v" --include "../../../../prj_5.srcs/sources_1/bd/sim/ipshared/7e3a/hdl" -d "MIPS_CPU_FULL_SIMU="
-
-# Do not sort compile order
-nosort
