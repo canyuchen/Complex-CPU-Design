@@ -1,45 +1,45 @@
 Starting xl2tpd (via systemctl): xl2tpd.service.
-Remote target: root@172.16.15.51
-Try to reboot 172.16.15.51
+Remote target: root@172.16.15.50
+Try to reboot 172.16.15.50
 Waiting for target reboot...
 Completed FPGA configuration
 Evaluating medium benchmark suite...
 Launching sum benchmark...
-total cycle: 21244
+total cycle: 21164
 Hit good trap
 Launching mov-c benchmark...
-total cycle: 1016
+total cycle: 978
 Hit good trap
 Launching fib benchmark...
-total cycle: 15690
+total cycle: 15681
 Hit good trap
 Launching add benchmark...
-total cycle: 20297
+total cycle: 20368
 Hit good trap
 Launching if-else benchmark...
-total cycle: 26965
+total cycle: 26828
 Hit good trap
 Launching pascal benchmark...
-total cycle: 119553
+total cycle: 119614
 Hit good trap
 Launching quick-sort benchmark...
-total cycle: 84755
+total cycle: 84932
 Hit good trap
 Launching select-sort benchmark...
-total cycle: 216027
+total cycle: 212922
 Hit good trap
 Launching max benchmark...
-total cycle: 132454
+total cycle: 131802
 Hit good trap
 Launching min3 benchmark...
-total cycle: 172317
+total cycle: 170747
 Hit good trap
 Launching switch benchmark...
-total cycle: 6681
+total cycle: 6747
 Hit good trap
 Launching bubble-sort benchmark...
-total cycle: 70151
+total cycle: 70323
 Hit good trap
 pass 12 / 12
 Stopping xl2tpd (via systemctl): xl2tpd.service.
-2018年 06月 16日 星期六 19:22:10 CST
+2018年 06月 24日 星期日 09:43:18 CST
