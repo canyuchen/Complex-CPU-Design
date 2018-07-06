@@ -69,7 +69,7 @@
 <PLLS><PLL domain={APU} vco={2399.976} /><PLL domain={DDR} vco={2133.312} /><PLL domain={Video} vco={2999.970} /></PLLS>\
 <MEMORY memType={DDR4} dataWidth={4} clockFreq={1066.656} readRate={0.5} writeRate={0.5} cmdAddressActivity={0.5} />\
 <SERDES><GT name={PCIe} standard={Gen2} lanes={1} usageRate={0.5} /><GT name={SATA} standard={SATA3} lanes={1} usageRate={0.5} /><GT name={Display Port} standard={SVGA-60 (800x600)} lanes={1} usageRate={0.5} />clockFreq={60} /><GT name={USB3} standard={USB3.0} lanes={1}usageRate={0.5} /><GT name={SGMII} standard={SGMII} lanes={0} usageRate={0.5} /></SERDES>\
-<AFI master={0} slave={1} clockFreq={175.041} usageRate={0.5} />\
+<AFI master={0} slave={1} clockFreq={179.998} usageRate={0.5} />\
 <FPINTERCONNECT clockFreq={667} Bandwidth={Low} />\
 </FPD>\
 <LPD><PROCESSSORS><PROCESSOR name={Cortex R-5} usage={Enable} TCM={Enable} OCM={Enable} clockFreq={499.995} load={0.5}/></PROCESSSORS>\
