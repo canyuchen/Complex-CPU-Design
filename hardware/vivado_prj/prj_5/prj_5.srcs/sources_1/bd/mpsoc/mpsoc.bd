@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<bd:repository xmlns:bd="http://www.xilinx.com/bd" bd:BoundaryCRC="0x5A1064D7FC716542" bd:device="xczu2eg-sfva625-1-e" bd:isValidated="true" bd:synthFlowMode="None" bd:tool_version="2017.2" bd:top="mpsoc" bd:version="1.00.a">
+<bd:repository xmlns:bd="http://www.xilinx.com/bd" bd:BoundaryCRC="0x5A1064D7873854C7" bd:device="xczu2eg-sfva625-1-e" bd:isValidated="true" bd:synthFlowMode="None" bd:tool_version="2017.2" bd:top="mpsoc" bd:version="1.00.a">
 
   <spirit:component xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
     <spirit:vendor>xilinx.com</spirit:vendor>
@@ -39,7 +39,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>FREQ_HZ</spirit:name>
-            <spirit:value>179998200</spirit:value>
+            <spirit:value>189998100</spirit:value>
             <spirit:vendorExtensions>
               <bd:configElementInfos>
                 <bd:configElementInfo bd:valueSource="ip_prop"/>
@@ -317,7 +317,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>FREQ_HZ</spirit:name>
-            <spirit:value>179998200</spirit:value>
+            <spirit:value>189998100</spirit:value>
             <spirit:vendorExtensions>
               <bd:configElementInfos>
                 <bd:configElementInfo bd:valueSource="ip_prop"/>
@@ -589,7 +589,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>FREQ_HZ</spirit:name>
-            <spirit:value>179998200</spirit:value>
+            <spirit:value>189998100</spirit:value>
             <spirit:vendorExtensions>
               <bd:configElementInfos>
                 <bd:configElementInfo bd:valueSource="ip_prop"/>
@@ -1087,7 +1087,7 @@
         <spirit:configurableElementValues>
           <spirit:configurableElementValue spirit:referenceId="bd:xciName">mpsoc_mips_clk_src_0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="JITTER_OPTIONS">PS</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="CLKOUT1_REQUESTED_OUT_FREQ">180</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="CLKOUT1_REQUESTED_OUT_FREQ">190</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>

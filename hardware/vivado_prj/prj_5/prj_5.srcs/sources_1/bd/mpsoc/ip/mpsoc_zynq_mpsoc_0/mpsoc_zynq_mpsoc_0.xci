@@ -53,7 +53,7 @@
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0_FPD.BUSER_WIDTH">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0_FPD.CLK_DOMAIN">/mips_clk_src_clk_out1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0_FPD.DATA_WIDTH">64</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0_FPD.FREQ_HZ">179998200</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0_FPD.FREQ_HZ">189998100</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0_FPD.HAS_BRESP">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0_FPD.HAS_BURST">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0_FPD.HAS_CACHE">1</spirit:configurableElementValue>
@@ -77,7 +77,7 @@
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0_FPD.WUSER_WIDTH">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0_FPD_ACLK.ASSOCIATED_RESET"/>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0_FPD_ACLK.CLK_DOMAIN">/mips_clk_src_clk_out1</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0_FPD_ACLK.FREQ_HZ">179998200</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0_FPD_ACLK.FREQ_HZ">189998100</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0_FPD_ACLK.PHASE">0.0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.CAN0_BOARD_INTERFACE">custom</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.CAN1_BOARD_INTERFACE">custom</spirit:configurableElementValue>
@@ -1491,7 +1491,7 @@ FA50000;FFA5FFFF;1|FPD;AFI_5;FD3B0000;FD3BFFFF;1|FPD;AFI_4;FD3A0000;FD3AFFFF;1|F
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PSU__SWDT1__RESET__IO">&lt;Select></spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PSU__S_AXI_GP0__FREQMHZ">10</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PSU__S_AXI_GP1__FREQMHZ">10</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PSU__S_AXI_GP2__FREQMHZ">179.9982</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PSU__S_AXI_GP2__FREQMHZ">189.9981</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PSU__S_AXI_GP3__FREQMHZ">10</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PSU__S_AXI_GP4__FREQMHZ">10</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PSU__S_AXI_GP5__FREQMHZ">10</spirit:configurableElementValue>

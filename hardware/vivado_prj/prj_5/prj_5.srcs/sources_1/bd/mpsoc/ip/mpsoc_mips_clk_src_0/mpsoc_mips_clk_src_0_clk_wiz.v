@@ -56,7 +56,7 @@
 //  Output     Output      Phase    Duty Cycle   Pk-to-Pk     Phase
 //   Clock     Freq (MHz)  (degrees)    (%)     Jitter (ps)  Error (ps)
 //----------------------------------------------------------------------------
-// clk_out1___179.998______0.000______50.0______122.981____105.462
+// clk_out1___189.998______0.000______50.0______103.476_____87.467
 //
 //----------------------------------------------------------------------------
 // Input Clock   Freq (MHz)    Input Jitter (UI)
@@ -129,10 +129,10 @@ wire clk_in2_mpsoc_mips_clk_src_0;
     .COMPENSATION         ("AUTO"),
     .STARTUP_WAIT         ("FALSE"),
     .DIVCLK_DIVIDE        (1),
-    .CLKFBOUT_MULT_F      (9.000),
+    .CLKFBOUT_MULT_F      (11.875),
     .CLKFBOUT_PHASE       (0.000),
     .CLKFBOUT_USE_FINE_PS ("FALSE"),
-    .CLKOUT0_DIVIDE_F     (5.000),
+    .CLKOUT0_DIVIDE_F     (6.250),
     .CLKOUT0_PHASE        (0.000),
     .CLKOUT0_DUTY_CYCLE   (0.500),
     .CLKOUT0_USE_FINE_PS  ("FALSE"),

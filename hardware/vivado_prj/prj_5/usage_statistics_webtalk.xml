@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<webTalkData  fileName='usage_statistics_webtalk.xml'  majorVersion='1' minorVersion='0' timeStamp='Fri Jul  6 21:29:22 2018'>
+<webTalkData  fileName='usage_statistics_webtalk.xml'  majorVersion='1' minorVersion='0' timeStamp='Fri Jul  6 21:55:19 2018'>
 <section name="__ROOT__" level="0" order="1" description="">
  <section name="software_version_and_target_device" level="1" order="1" description="">
   <keyValuePair key="beta" value="FALSE" description="" />
   <keyValuePair key="build_version" value="1909853" description="" />
-  <keyValuePair key="date_generated" value="Fri Jul  6 21:29:21 2018" description="" />
+  <keyValuePair key="date_generated" value="Fri Jul  6 21:55:07 2018" description="" />
   <keyValuePair key="os_platform" value="LIN64" description="" />
   <keyValuePair key="product_version" value="Vivado v2017.2 (64-bit)" description="" />
-  <keyValuePair key="project_id" value="da683334cf2f409c9780ab35a306c65d" description="" />
+  <keyValuePair key="project_id" value="43e6d5ae3690496b84974424750adcce" description="" />
   <keyValuePair key="project_iteration" value="1" description="" />
   <keyValuePair key="random_id" value="82ce3a35fe8155bd8a25c1faf294c180" description="" />
   <keyValuePair key="registration_id" value="82ce3a35fe8155bd8a25c1faf294c180" description="" />
@@ -584,7 +584,7 @@
    <keyValuePair key="c_data_bits" value="8" description="" />
    <keyValuePair key="c_family" value="zynquplus" description="" />
    <keyValuePair key="c_odd_parity" value="0" description="" />
-   <keyValuePair key="c_s_axi_aclk_freq_hz" value="179998200" description="" />
+   <keyValuePair key="c_s_axi_aclk_freq_hz" value="189998100" description="" />
    <keyValuePair key="c_s_axi_addr_width" value="4" description="" />
    <keyValuePair key="c_s_axi_data_width" value="32" description="" />
    <keyValuePair key="c_use_parity" value="0" description="" />
@@ -1260,6 +1260,16 @@
    <keyValuePair key="-verbose" value="default::[not_specified]" description="" />
    <keyValuePair key="-vhfn" value="default::[not_specified]" description="" />
   </section>
+  <section name="usage" level="2" order="2" description="">
+   <keyValuePair key="postths" value="0.000000" description="" />
+   <keyValuePair key="posttns" value="0.000000" description="" />
+   <keyValuePair key="postwhs" value="0.000000" description="" />
+   <keyValuePair key="postwns" value="0.251644" description="" />
+   <keyValuePair key="preths" value="0.000000" description="" />
+   <keyValuePair key="pretns" value="0.000000" description="" />
+   <keyValuePair key="prewhs" value="0.000000" description="" />
+   <keyValuePair key="prewns" value="0.251644" description="" />
+  </section>
  </section>
  <section name="report_utilization" level="1" order="5" description="">
   <section name="io_standard" level="2" order="1" description="">
@@ -1345,17 +1355,17 @@
    <keyValuePair key="fdse_functional_category" value="Register" description="" />
    <keyValuePair key="fdse_used" value="585" description="" />
    <keyValuePair key="lut1_functional_category" value="CLB" description="" />
-   <keyValuePair key="lut1_used" value="94" description="" />
+   <keyValuePair key="lut1_used" value="93" description="" />
    <keyValuePair key="lut2_functional_category" value="CLB" description="" />
-   <keyValuePair key="lut2_used" value="667" description="" />
+   <keyValuePair key="lut2_used" value="668" description="" />
    <keyValuePair key="lut3_functional_category" value="CLB" description="" />
-   <keyValuePair key="lut3_used" value="681" description="" />
+   <keyValuePair key="lut3_used" value="684" description="" />
    <keyValuePair key="lut4_functional_category" value="CLB" description="" />
-   <keyValuePair key="lut4_used" value="528" description="" />
+   <keyValuePair key="lut4_used" value="526" description="" />
    <keyValuePair key="lut5_functional_category" value="CLB" description="" />
-   <keyValuePair key="lut5_used" value="1290" description="" />
+   <keyValuePair key="lut5_used" value="1291" description="" />
    <keyValuePair key="lut6_functional_category" value="CLB" description="" />
-   <keyValuePair key="lut6_used" value="2090" description="" />
+   <keyValuePair key="lut6_used" value="2089" description="" />
    <keyValuePair key="mmcme4_adv_functional_category" value="Clock" description="" />
    <keyValuePair key="mmcme4_adv_used" value="1" description="" />
    <keyValuePair key="muxf7_functional_category" value="CLB" description="" />
@@ -1374,27 +1384,27 @@
  </section>
  <section name="router" level="1" order="6" description="">
   <section name="usage" level="2" order="1" description="">
-   <keyValuePair key="actual_expansions" value="7066510" description="" />
+   <keyValuePair key="actual_expansions" value="7600980" description="" />
    <keyValuePair key="bogomips" value="4607" description="" />
    <keyValuePair key="bram18" value="0" description="" />
    <keyValuePair key="bram36" value="0" description="" />
    <keyValuePair key="bufg" value="0" description="" />
    <keyValuePair key="bufr" value="0" description="" />
-   <keyValuePair key="congestion_level" value="0" description="" />
+   <keyValuePair key="congestion_level" value="1" description="" />
    <keyValuePair key="ctrls" value="312" description="" />
    <keyValuePair key="dsp" value="0" description="" />
    <keyValuePair key="effort" value="2" description="" />
-   <keyValuePair key="estimated_expansions" value="46272384" description="" />
+   <keyValuePair key="estimated_expansions" value="48408768" description="" />
    <keyValuePair key="ff" value="5793" description="" />
    <keyValuePair key="global_clocks" value="3" description="" />
    <keyValuePair key="high_fanout_nets" value="5" description="" />
    <keyValuePair key="iob" value="0" description="" />
-   <keyValuePair key="lut" value="5452" description="" />
-   <keyValuePair key="movable_instances" value="12430" description="" />
-   <keyValuePair key="nets" value="21802" description="" />
-   <keyValuePair key="pins" value="77643" description="" />
+   <keyValuePair key="lut" value="5443" description="" />
+   <keyValuePair key="movable_instances" value="12431" description="" />
+   <keyValuePair key="nets" value="21803" description="" />
+   <keyValuePair key="pins" value="77645" description="" />
    <keyValuePair key="pll" value="0" description="" />
-   <keyValuePair key="router_runtime" value="3.000000" description="" />
+   <keyValuePair key="router_runtime" value="8.000000" description="" />
    <keyValuePair key="router_timing_driven" value="1" description="" />
    <keyValuePair key="threads" value="1" description="" />
    <keyValuePair key="timing_constraints_exist" value="1" description="" />
@@ -1438,10 +1448,10 @@
    <keyValuePair key="-verilog_define" value="default::[not_specified]" description="" />
   </section>
   <section name="usage" level="2" order="2" description="">
-   <keyValuePair key="elapsed" value="00:03:36s" description="" />
+   <keyValuePair key="elapsed" value="00:03:39s" description="" />
    <keyValuePair key="hls_ip" value="0" description="" />
-   <keyValuePair key="memory_gain" value="2147.938MB" description="" />
-   <keyValuePair key="memory_peak" value="4111.512MB" description="" />
+   <keyValuePair key="memory_gain" value="2147.945MB" description="" />
+   <keyValuePair key="memory_peak" value="4111.523MB" description="" />
   </section>
  </section>
  <section name="unisim_transformation" level="1" order="8" description="">
@@ -1454,12 +1464,12 @@
    <keyValuePair key="fdre" value="8622" description="" />
    <keyValuePair key="fdse" value="586" description="" />
    <keyValuePair key="gnd" value="327" description="" />
-   <keyValuePair key="lut1" value="517" description="" />
-   <keyValuePair key="lut2" value="678" description="" />
-   <keyValuePair key="lut3" value="895" description="" />
-   <keyValuePair key="lut4" value="549" description="" />
-   <keyValuePair key="lut5" value="934" description="" />
-   <keyValuePair key="lut6" value="2912" description="" />
+   <keyValuePair key="lut1" value="516" description="" />
+   <keyValuePair key="lut2" value="679" description="" />
+   <keyValuePair key="lut3" value="898" description="" />
+   <keyValuePair key="lut4" value="547" description="" />
+   <keyValuePair key="lut5" value="935" description="" />
+   <keyValuePair key="lut6" value="2911" description="" />
    <keyValuePair key="mmcme4_adv" value="1" description="" />
    <keyValuePair key="muxf7" value="312" description="" />
    <keyValuePair key="muxf8" value="2" description="" />
@@ -1481,12 +1491,12 @@
    <keyValuePair key="fdse" value="586" description="" />
    <keyValuePair key="gnd" value="321" description="" />
    <keyValuePair key="ibuf" value="1" description="" />
-   <keyValuePair key="lut1" value="517" description="" />
-   <keyValuePair key="lut2" value="678" description="" />
-   <keyValuePair key="lut3" value="895" description="" />
-   <keyValuePair key="lut4" value="549" description="" />
-   <keyValuePair key="lut5" value="934" description="" />
-   <keyValuePair key="lut6" value="2912" description="" />
+   <keyValuePair key="lut1" value="516" description="" />
+   <keyValuePair key="lut2" value="679" description="" />
+   <keyValuePair key="lut3" value="898" description="" />
+   <keyValuePair key="lut4" value="547" description="" />
+   <keyValuePair key="lut5" value="935" description="" />
+   <keyValuePair key="lut6" value="2911" description="" />
    <keyValuePair key="mmcme4_adv" value="1" description="" />
    <keyValuePair key="muxf7" value="312" description="" />
    <keyValuePair key="muxf8" value="2" description="" />
