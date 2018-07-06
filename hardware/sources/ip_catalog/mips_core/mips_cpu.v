@@ -428,7 +428,8 @@ module mips_cpu(
                                               :((mips_alu_out_Result[1:0] == 2'b10) ? {mips_rf_out_rdata_2[31:16],Read_data_i[31:16]}
                                               :((mips_alu_out_Result[1:0] == 2'b11) ? {mips_rf_out_rdata_2[31: 8],Read_data_i[31:24]}
                                               :  Read_data_i)));
-                        default: ;//mips_rf_in_wdata <= mips_rf_in_wdata;
+                        // default: ;//mips_rf_in_wdata <= mips_rf_in_wdata;
+                        default:mips_rf_in_wdata <= 32'd0;
                     endcase
                 end
                 4'b1000://sltu

@@ -127,7 +127,7 @@ ARCHITECTURE mpsoc_axi_uart_0_arch OF mpsoc_axi_uart_0 IS
   ATTRIBUTE CHECK_LICENSE_TYPE : STRING;
   ATTRIBUTE CHECK_LICENSE_TYPE OF mpsoc_axi_uart_0_arch : ARCHITECTURE IS "mpsoc_axi_uart_0,axi_uartlite,{}";
   ATTRIBUTE CORE_GENERATION_INFO : STRING;
-  ATTRIBUTE CORE_GENERATION_INFO OF mpsoc_axi_uart_0_arch: ARCHITECTURE IS "mpsoc_axi_uart_0,axi_uartlite,{x_ipProduct=Vivado 2017.2,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=axi_uartlite,x_ipVersion=2.0,x_ipCoreRevision=17,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,C_FAMILY=zynquplus,C_S_AXI_ACLK_FREQ_HZ=150079014,C_S_AXI_ADDR_WIDTH=4,C_S_AXI_DATA_WIDTH=32,C_BAUDRATE=115200,C_DATA_BITS=8,C_USE_PARITY=0,C_ODD_PARITY=0}";
+  ATTRIBUTE CORE_GENERATION_INFO OF mpsoc_axi_uart_0_arch: ARCHITECTURE IS "mpsoc_axi_uart_0,axi_uartlite,{x_ipProduct=Vivado 2017.2,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=axi_uartlite,x_ipVersion=2.0,x_ipCoreRevision=17,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,C_FAMILY=zynquplus,C_S_AXI_ACLK_FREQ_HZ=175040984,C_S_AXI_ADDR_WIDTH=4,C_S_AXI_DATA_WIDTH=32,C_BAUDRATE=115200,C_DATA_BITS=8,C_USE_PARITY=0,C_ODD_PARITY=0}";
   ATTRIBUTE X_INTERFACE_INFO : STRING;
   ATTRIBUTE X_INTERFACE_INFO OF s_axi_aclk: SIGNAL IS "xilinx.com:signal:clock:1.0 ACLK CLK";
   ATTRIBUTE X_INTERFACE_INFO OF s_axi_aresetn: SIGNAL IS "xilinx.com:signal:reset:1.0 ARESETN RST";
@@ -155,7 +155,7 @@ BEGIN
   U0 : axi_uartlite
     GENERIC MAP (
       C_FAMILY => "zynquplus",
-      C_S_AXI_ACLK_FREQ_HZ => 150079014,
+      C_S_AXI_ACLK_FREQ_HZ => 175040984,
       C_S_AXI_ADDR_WIDTH => 4,
       C_S_AXI_DATA_WIDTH => 32,
       C_BAUDRATE => 115200,

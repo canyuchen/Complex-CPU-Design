@@ -1035,7 +1035,7 @@
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>FREQ_HZ</spirit:name>
-          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.M_AXI.FREQ_HZ">150079014</spirit:value>
+          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.M_AXI.FREQ_HZ">175040984</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>none</xilinx:parameterUsage>
@@ -1369,7 +1369,7 @@
           <spirit:name>FREQ_HZ</spirit:name>
           <spirit:displayName>m_axi_aclk frequency</spirit:displayName>
           <spirit:description>m_axi_aclk frequency</spirit:description>
-          <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="BUSIFPARAM_VALUE.MI_CLK.FREQ_HZ" spirit:minimum="1" spirit:maximum="1000000000" spirit:rangeType="long">150079014</spirit:value>
+          <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="BUSIFPARAM_VALUE.MI_CLK.FREQ_HZ" spirit:minimum="1" spirit:maximum="1000000000" spirit:rangeType="long">175040984</spirit:value>
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>PHASE</spirit:name>
@@ -1506,11 +1506,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Jul 06 12:02:46 UTC 2018</spirit:value>
+            <spirit:value>Fri Jul 06 12:35:15 UTC 2018</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:e9217104</spirit:value>
+            <spirit:value>7:693e11e0</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1524,11 +1524,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Jul 06 12:02:50 UTC 2018</spirit:value>
+            <spirit:value>Fri Jul 06 12:35:16 UTC 2018</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:e9217104</spirit:value>
+            <spirit:value>7:693e11e0</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1543,11 +1543,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Jul 06 12:02:50 UTC 2018</spirit:value>
+            <spirit:value>Fri Jul 06 12:35:16 UTC 2018</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:e9217104</spirit:value>
+            <spirit:value>7:693e11e0</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1568,11 +1568,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Jul 06 12:02:46 UTC 2018</spirit:value>
+            <spirit:value>Fri Jul 06 12:35:15 UTC 2018</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:37e17aad</spirit:value>
+            <spirit:value>7:b7fe1a49</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1587,11 +1587,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Jul 06 12:02:50 UTC 2018</spirit:value>
+            <spirit:value>Fri Jul 06 12:35:16 UTC 2018</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:37e17aad</spirit:value>
+            <spirit:value>7:b7fe1a49</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1605,11 +1605,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Jul 06 12:02:50 UTC 2018</spirit:value>
+            <spirit:value>Fri Jul 06 12:35:16 UTC 2018</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:e9217104</spirit:value>
+            <spirit:value>7:693e11e0</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
