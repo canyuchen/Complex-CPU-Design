@@ -1,0 +1,145 @@
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2017.2/bin/unwrapped/lnx64.o/xelab -wto 352c3f33f1224745a7579fc18deb361c --debug typical --relax --mt 8 -d MIPS_CPU_FULL_SIMU= -d UART_SIM= -L blk_mem_gen_v8_3_6 -L xil_defaultlib -L axi_bram_ctrl_v4_0_11 -L axi_lite_ipif_v3_0_4 -L lib_pkg_v1_0_2 -L lib_srl_fifo_v1_0_2 -L lib_cdc_v1_0_2 -L axi_uartlite_v2_0_17 -L interrupt_control_v3_1_4 -L axi_gpio_v2_0_15 -L util_vector_logic_v2_0_1 -L generic_baseblocks_v2_1_0 -L axi_infrastructure_v1_1_0 -L axi_register_slice_v2_1_13 -L fifo_generator_v13_1_4 -L axi_data_fifo_v2_1_12 -L axi_crossbar_v2_1_14 -L axi_protocol_converter_v2_1_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot mips_cpu_test_behav xil_defaultlib.mips_cpu_test xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1783] select index 62 into current_contents is out of bounds [/wrk/2017.2/nightly/2017_06_15_1909853/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_3/simulation/blk_mem_gen_v8_3.v:2420]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/cod/Desktop/prj5_1/v1/prj5-cpu-opt-harvardchen/hardware/sources/testbench/uart_recv_sim.v" Line 1. Module uart_recv_sim doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package axi_lite_ipif_v3_0_4.ipif_pkg
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package lib_pkg_v1_0_2.lib_pkg
+Compiling package axi_bram_ctrl_v4_0_11.axi_bram_ctrl_funcs
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.reg_file
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.barrel_shifter
+Compiling module xil_defaultlib.mips_cpu
+Compiling module xil_defaultlib.mips_cpu_top
+Compiling module xil_defaultlib.m00_couplers_imp_HED6HO
+Compiling module xil_defaultlib.m01_couplers_imp_1R0U4D5
+Compiling module xil_defaultlib.m02_couplers_imp_QC205Z
+Compiling module xil_defaultlib.m03_couplers_imp_10HHV4I
+Compiling module xil_defaultlib.m04_couplers_imp_1YHMF0Q
+Compiling module xil_defaultlib.m05_couplers_imp_9VN0UN
+Compiling module xil_defaultlib.m06_couplers_imp_17XDC5D
+Compiling module xil_defaultlib.m07_couplers_imp_ISZ0P0
+Compiling module xil_defaultlib.s00_couplers_imp_162PUZQ
+Compiling module axi_crossbar_v2_1_14.axi_crossbar_v2_1_14_addr_arbite...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_carry_...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_compar...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_compar...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_compar...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_compar...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_compar...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_compar...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_compar...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_compar...
+Compiling module axi_crossbar_v2_1_14.axi_crossbar_v2_1_14_addr_decode...
+Compiling module axi_crossbar_v2_1_14.axi_crossbar_v2_1_14_splitter(C_...
+Compiling module axi_crossbar_v2_1_14.axi_crossbar_v2_1_14_splitter
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_mux_en...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_mux_en...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_mux_en...
+Compiling module axi_register_slice_v2_1_13.axi_register_slice_v2_1_13_axic_...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_mux_en...
+Compiling module axi_crossbar_v2_1_14.axi_crossbar_v2_1_14_decerr_slav...
+Compiling module axi_crossbar_v2_1_14.axi_crossbar_v2_1_14_crossbar_sa...
+Compiling module axi_crossbar_v2_1_14.axi_crossbar_v2_1_14_axi_crossba...
+Compiling module xil_defaultlib.sim_xbar_1
+Compiling module xil_defaultlib.sim_axi4_gpio_ic_0
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=2,c_aw=2,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=2,c_aw=2,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=2,c_aw=2,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=2,c_aw=2,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.address_decoder [\address_decoder(c_bus_awidth=9,...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.slave_attachment [\slave_attachment(c_ard_addr_ran...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.axi_lite_ipif [\axi_lite_ipif(c_s_axi_addr_widt...]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture fdr_v of entity unisim.FDR [fdr_default]
+Compiling architecture implementation of entity lib_cdc_v1_0_2.cdc_sync [\cdc_sync(c_single_bit=0,c_mtbf_...]
+Compiling architecture imp of entity axi_gpio_v2_0_15.GPIO_Core [\GPIO_Core(c_aw=9,c_is_dual=1,c_...]
+Compiling architecture imp of entity axi_gpio_v2_0_15.axi_gpio [\axi_gpio(c_family="zynquplus",c...]
+Compiling architecture sim_axi_gpio_0_0_arch of entity xil_defaultlib.sim_axi_gpio_0_0 [sim_axi_gpio_0_0_default]
+Compiling architecture sim_axi_gpio_1_0_arch of entity xil_defaultlib.sim_axi_gpio_1_0 [sim_axi_gpio_1_0_default]
+Compiling architecture sim_axi_gpio_2_0_arch of entity xil_defaultlib.sim_axi_gpio_2_0 [sim_axi_gpio_2_0_default]
+Compiling architecture sim_axi_gpio_3_0_arch of entity xil_defaultlib.sim_axi_gpio_3_0 [sim_axi_gpio_3_0_default]
+Compiling architecture sim_axi_gpio_4_0_arch of entity xil_defaultlib.sim_axi_gpio_4_0 [sim_axi_gpio_4_0_default]
+Compiling architecture sim_axi_gpio_5_0_arch of entity xil_defaultlib.sim_axi_gpio_5_0 [sim_axi_gpio_5_0_default]
+Compiling architecture sim_axi_gpio_6_0_arch of entity xil_defaultlib.sim_axi_gpio_6_0 [sim_axi_gpio_6_0_default]
+Compiling architecture sim_axi_gpio_7_0_arch of entity xil_defaultlib.sim_axi_gpio_7_0 [sim_axi_gpio_7_0_default]
+Compiling architecture rtl of entity axi_uartlite_v2_0_17.baudrate [\baudrate(c_ratio=54)\]
+Compiling architecture implementation of entity lib_cdc_v1_0_2.cdc_sync [\cdc_sync(c_mtbf_stages=4)\]
+Compiling architecture behavioral of entity axi_uartlite_v2_0_17.dynshreg_i_f [\dynshreg_i_f(c_depth=16,c_famil...]
+Compiling architecture imp of entity lib_srl_fifo_v1_0_2.cntr_incr_decr_addn_f [\cntr_incr_decr_addn_f(c_size=5,...]
+Compiling architecture behavioral of entity lib_srl_fifo_v1_0_2.dynshreg_f [\dynshreg_f(c_depth=16,c_dwidth=...]
+Compiling architecture imp of entity lib_srl_fifo_v1_0_2.srl_fifo_rbu_f [\srl_fifo_rbu_f(c_dwidth=8,c_fam...]
+Compiling architecture imp of entity lib_srl_fifo_v1_0_2.srl_fifo_f [\srl_fifo_f(c_dwidth=8,c_family=...]
+Compiling architecture rtl of entity axi_uartlite_v2_0_17.uartlite_rx [\uartlite_rx(c_family="zynquplus...]
+Compiling architecture behavioral of entity axi_uartlite_v2_0_17.dynshreg_i_f [\dynshreg_i_f(c_depth=16,c_init_...]
+Compiling architecture rtl of entity axi_uartlite_v2_0_17.uartlite_tx [\uartlite_tx(c_family="zynquplus...]
+Compiling architecture rtl of entity axi_uartlite_v2_0_17.uartlite_core [\uartlite_core(c_family="zynqupl...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.address_decoder [\address_decoder(c_bus_awidth=4,...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.slave_attachment [\slave_attachment(c_ard_addr_ran...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.axi_lite_ipif [\axi_lite_ipif(c_s_axi_addr_widt...]
+Compiling architecture rtl of entity axi_uartlite_v2_0_17.axi_uartlite [\axi_uartlite(c_family="zynquplu...]
+Compiling architecture sim_axi_uart_0_arch of entity xil_defaultlib.sim_axi_uart_0 [sim_axi_uart_0_default]
+Compiling module axi_protocol_converter_v2_1_13.axi_protocol_converter_v2_1_13_a...
+Compiling module xil_defaultlib.sim_auto_pc_0
+Compiling module xil_defaultlib.m00_couplers_imp_1R6WPDP
+Compiling module xil_defaultlib.m01_couplers_imp_H8XEK8
+Compiling module xil_defaultlib.m02_couplers_imp_10LEW52
+Compiling module xil_defaultlib.s00_couplers_imp_KPZO07
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_compar...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_compar...
+Compiling module axi_crossbar_v2_1_14.axi_crossbar_v2_1_14_addr_decode...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_mux_en...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_mux_en...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_mux_en...
+Compiling module axi_crossbar_v2_1_14.axi_crossbar_v2_1_14_crossbar_sa...
+Compiling module axi_crossbar_v2_1_14.axi_crossbar_v2_1_14_axi_crossba...
+Compiling module xil_defaultlib.sim_xbar_0
+Compiling module xil_defaultlib.sim_mips_axi_ic_0
+Compiling module util_vector_logic_v2_0_1.util_vector_logic_v2_0_1_util_ve...
+Compiling module xil_defaultlib.sim_mips_reset_gen_0
+Compiling module xil_defaultlib.sim
+Compiling module xil_defaultlib.sim_wrapper
+Compiling architecture implementation of entity axi_bram_ctrl_v4_0_11.sng_port_arb [\sng_port_arb(c_s_axi_addr_width...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_0_11.ua_narrow [\ua_narrow(c_bram_addr_adjust_fa...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_0_11.wrap_brst [\wrap_brst(c_axi_addr_width=16,c...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture muxcy_l_v of entity unisim.MUXCY_L [muxcy_l_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(0,15)\]
+Compiling architecture imp of entity axi_bram_ctrl_v4_0_11.SRL_FIFO [\SRL_FIFO(c_data_bits=1,c_depth=...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_0_11.wr_chnl [\wr_chnl(c_axi_addr_width=16,c_a...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_0_11.rd_chnl [\rd_chnl(c_axi_addr_width=16,c_a...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_0_11.full_axi [\full_axi(c_s_axi_addr_width=16,...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_0_11.axi_bram_ctrl_top [\axi_bram_ctrl_top(c_bram_addr_w...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_0_11.axi_bram_ctrl [\axi_bram_ctrl(c_memory_depth=16...]
+Compiling architecture axi_bram_if_arch of entity xil_defaultlib.axi_bram_if [axi_bram_if_default]
+Compiling module blk_mem_gen_v8_3_6.blk_mem_gen_v8_3_6_output_stage(...
+Compiling module blk_mem_gen_v8_3_6.blk_mem_gen_v8_3_6_output_stage(...
+Compiling module blk_mem_gen_v8_3_6.blk_mem_gen_v8_3_6_softecc_outpu...
+Compiling module blk_mem_gen_v8_3_6.blk_mem_gen_v8_3_6_mem_module(C_...
+Compiling module blk_mem_gen_v8_3_6.blk_mem_gen_v8_3_6(C_FAMILY="zyn...
+Compiling module xil_defaultlib.mips_bram
+Compiling module xil_defaultlib.uart_recv_sim
+Compiling module xil_defaultlib.mips_cpu_fpga
+Compiling module xil_defaultlib.mips_cpu_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mips_cpu_test_behav
