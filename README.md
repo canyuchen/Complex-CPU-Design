@@ -9,7 +9,7 @@ Project #5 (prj5) in Experiments of Computer Organization and Design (COD) in UC
 
 ## Implementation
 
-* Experient framework :
+* Experiment framework :
 ![cpu-2](/resources/cpu-2.png)
 
 * Complete state machine of multi-cycle CPU :
