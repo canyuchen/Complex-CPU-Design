@@ -1,7 +1,19 @@
-Project #5 (prj5) in Experiments of Computer Organization and Design (COD) in UCAS
+Project #5 (prj5) in Experiments of Computer Organization and Design (COD) in UCAS : Complex CPU Design
 =====
-<changyisong@ict.ac.cn>
------
+
+## Core Feature
+
+* Implement complete multi-cycle CPU based on signle-cycle CPU 
+* Add Instruction Cache and Data Cache to the CPU and implement the core cache replacement algorithm
+* Design performance counters and optimize the performance of the whole SoC system
+
+## Implementation
+
+* Experient framework :
+![cpu-2](/resources/cpu-2.png)
+
+* Complete state machine of multi-cycle CPU :
+![cpu-1](/resources/cpu-1.png)
 
 ## Basic MIPS CPU Benchmarks
 
